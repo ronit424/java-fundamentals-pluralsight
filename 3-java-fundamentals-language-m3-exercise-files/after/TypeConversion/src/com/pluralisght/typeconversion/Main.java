@@ -15,5 +15,7 @@ public class Main {
         long result4 = (long)(shortVal - longVal + floatVal + doubleVal);
 
         System.out.println("Success");
+
+        //git test
     }
 }
