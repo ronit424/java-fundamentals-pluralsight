@@ -51,4 +51,10 @@ public class MathEquation {
         }
 
     }
+
+    public void execute(int leftInt, int rightInt) {
+    }
+
+    public void execute(double leftDouble, double rightDouble) {
+    }
 }
