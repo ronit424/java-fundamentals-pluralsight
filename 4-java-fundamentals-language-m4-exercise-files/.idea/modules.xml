@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/after/CalcEngine/CalcEngine.iml" filepath="$PROJECT_DIR$/after/CalcEngine/CalcEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/after/LetsGetLogical/LetsGetLogical.iml" filepath="$PROJECT_DIR$/after/LetsGetLogical/LetsGetLogical.iml" />
+      <module fileurl="file://$PROJECT_DIR$/before/LetsGetLogical/LetsGetLogical1.iml" filepath="$PROJECT_DIR$/before/LetsGetLogical/LetsGetLogical1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/before/NestedIfs/NestedIfs.iml" filepath="$PROJECT_DIR$/before/NestedIfs/NestedIfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/after/NestedIfs/NestedIfs1.iml" filepath="$PROJECT_DIR$/after/NestedIfs/NestedIfs1.iml" />
+    </modules>
+  </component>
+</project>
