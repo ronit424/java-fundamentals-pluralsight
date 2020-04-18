@@ -9,7 +9,7 @@ public class Main {
         equations[2] = new MathEquation('s', 225.0d, 17.0d);
         equations[3] = new MathEquation('m', 11.0d, 3.0d);
 
-        for(MathEquation equation : equations) {
+        for (MathEquation equation : equations) {
             equation.execute();
             System.out.print("result = ");
             System.out.println(equation.getResult());
@@ -34,10 +34,26 @@ public class Main {
         System.out.print("result=");
         System.out.println(equationOverload.getResult());
 
-        equationOverload.execute((double)leftInt, rightInt);
+        equationOverload.execute((double) leftInt, rightInt);
         System.out.print("result=");
         System.out.println(equationOverload.getResult());
 
-    }
+        System.out.println();
+        System.out.println("Using Inheritance");
+        System.out.println();
 
+        CalculateBase[] calculators = {
+                new Divider(100.0d, 50.0d),
+                new Adder(25.0d, 92.0d),
+                new Subtracter(225.0d, 17.0d),
+                new Multiplier(11.0d, 3.0d)
+        };
+
+        for (CalculateBase calculator : calculators) {
+            calculator.calculate();
+            System.out.print("result=");
+            System.out.println(calculator.getResult());
+
+        }
+    }
 }
