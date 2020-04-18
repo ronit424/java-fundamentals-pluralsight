@@ -8,8 +8,8 @@ public class Main {
         char[] opCodes = {'d', 'a', 's', 'm'};
         double[] results = new double[opCodes.length];
 
-        for(int i = 0; i < opCodes.length; i++) {
-            switch(opCodes[i]) {
+        for (int i = 0; i < opCodes.length; i++) {
+            switch (opCodes[i]) {
                 case 'a':
                     results[i] = leftVals[i] + rightVals[i];
                     break;
@@ -28,9 +28,10 @@ public class Main {
                     break;
             }
         }
-        for(double theResult : results) {
+        for (double theResult : results) {
             System.out.print("result = ");
             System.out.println(theResult);
         }
     }
 }
+
