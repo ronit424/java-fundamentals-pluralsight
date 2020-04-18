@@ -3,10 +3,6 @@ package com.pluralsight.calcengine;
 public class Main {
 
     public static void main(String[] args) {
-//        MathEquation testEquation = new MathEquation();
-//        testEquation.execute();
-//        System.out.print("test=");
-//        System.out.println(testEquation.getResult());
 
         MathEquation[] equations = new MathEquation[4];
         equations[0] = new MathEquation('d', 100.0d, 50.0d);
@@ -21,12 +17,4 @@ public class Main {
         }
     }
 
-//    public static MathEquation create(double leftVal, double rightVal, char opCode) {
-//        MathEquation equation = new MathEquation();
-//        equation.setLeftVal(leftVal);
-//        equation.setRightVal(rightVal);
-//        equation.setOpCode(opCode);
-//
-//        return equation;
-//    }
 }
